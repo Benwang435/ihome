@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff9438cf-4736-43fe-91ba-15d7e44408cb" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/areas_facility.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/houses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/keys/alipay_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/keys/app_private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/passport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/pay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/pay_bak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/api_1_0/verify_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/libs/get_email_captcha/get_captcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/booking.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/myhouse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/newhouse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/ihome/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/lorders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/my.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/myhouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/newhouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/payComplete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images/houseicon_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images/logo@128x59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images_bak/home01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images_bak/home02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images_bak/home03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images_bak/houseicon_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images_bak/landlord01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/images_bak/logo@128x59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/booking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/lorders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/myhouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/newhouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/ihome/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/jquery.blockui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/jquery.form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-switch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-switch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-switch/css/bootstrap-switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-switch/css/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-switch/js/bootstrap-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap-switch/js/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/icons-lte-ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/simple-line-icons/simple-line-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/swiper/css/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/swiper/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/swiper/js/swiper.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/swiper/js/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/swiper/js/swiper.jquery.min.js.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/css/uniform.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/css/uniform.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/css/uniform.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/images/bg-input-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/images/bg-input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/images/sprite_original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/jquery.uniform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/plugins/uniform/jquery.uniform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165472615574614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473073642523.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473312672891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473314241316.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473316549232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473317936379.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473352846778.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473353330269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165473353987855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165494915545901.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165494916595060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/static/upload/165515529166050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/2.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/avatar01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/captcha/captcha_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/commons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/image_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/logxxxxxx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/response_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/utils/strUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome/web_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihome_update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/4e3bb5f1f746_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ihome/utils/image_storage.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1wvBz0qhzmWSL2tnzh7O9BgFKKb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunConfigurationTargetLRU" value="5caedb3a-b2b9-4147-87f6-d2d1e9ecb9fa" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ihome/utils" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.3596914" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ihome/utils" />
+      <recent name="$PROJECT_DIR$/ihome/utils/captcha" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/logs" />
+      <recent name="$PROJECT_DIR$/ihome/static/html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ihome/api_1_0/templates" />
+      <recent name="$PROJECT_DIR$/ihome/static" />
+      <recent name="$PROJECT_DIR$/ihome/utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="captcha_get" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ihome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ihome/utils/captcha" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ihome/utils/captcha/captcha_get.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ihome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ihome/api_1_0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ihome/api_1_0/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_storage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ihome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ihome/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ihome/utils/image_storage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ihome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ihome/api_1_0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ihome/api_1_0/pay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ihome" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ihome/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ihome/utils/strUtil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python.captcha_get" />
+      <item itemvalue="Python.image_storage" />
+      <item itemvalue="Python.strUtil" />
+      <item itemvalue="Python.pay" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.pay" />
+        <item itemvalue="Python.image_storage" />
+        <item itemvalue="Python.strUtil" />
+        <item itemvalue="Python.captcha_get" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ff9438cf-4736-43fe-91ba-15d7e44408cb" name="默认变更列表" comment="" />
+      <created>1629329443802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629329443802</updated>
+      <workItem from="1629329445629" duration="1434000" />
+      <workItem from="1629334110462" duration="75000" />
+      <workItem from="1629334392994" duration="930000" />
+      <workItem from="1629337778370" duration="6643000" />
+      <workItem from="1629352584983" duration="3877000" />
+      <workItem from="1629365331060" duration="117000" />
+      <workItem from="1629365478911" duration="6342000" />
+      <workItem from="1629413304040" duration="7100000" />
+      <workItem from="1629443524585" duration="13745000" />
+      <workItem from="1629492821561" duration="23279000" />
+      <workItem from="1629554709375" duration="1211000" />
+      <workItem from="1629569644315" duration="31130000" />
+      <workItem from="1629626767843" duration="3667000" />
+      <workItem from="1629674058172" duration="10300000" />
+      <workItem from="1629766190989" duration="16510000" />
+      <workItem from="1629843239037" duration="235000" />
+      <workItem from="1629843493483" duration="13973000" />
+      <workItem from="1629893178942" duration="4554000" />
+      <workItem from="1629926090518" duration="21954000" />
+      <workItem from="1630020194386" duration="9925000" />
+      <workItem from="1630066102542" duration="609000" />
+      <workItem from="1630094674351" duration="1514000" />
+      <workItem from="1630097041658" duration="24235000" />
+      <workItem from="1630189415293" duration="28254000" />
+      <workItem from="1630272330787" duration="5363000" />
+      <workItem from="1630286630294" duration="4662000" />
+      <workItem from="1630308245481" duration="14741000" />
+      <workItem from="1630364779042" duration="2595000" />
+      <workItem from="1630371434965" duration="11968000" />
+      <workItem from="1630396011890" duration="10141000" />
+      <workItem from="1630445198724" duration="2144000" />
+      <workItem from="1630451801104" duration="2969000" />
+      <workItem from="1630462812800" duration="18393000" />
+      <workItem from="1630521033432" duration="20042000" />
+      <workItem from="1630610369809" duration="17288000" />
+      <workItem from="1630655547623" duration="6964000" />
+      <workItem from="1630664469038" duration="5848000" />
+      <workItem from="1630710125339" duration="13237000" />
+      <workItem from="1630801814594" duration="11152000" />
+      <workItem from="1630874427372" duration="2026000" />
+      <workItem from="1630922868178" duration="47000" />
+      <workItem from="1630923031191" duration="1815000" />
+      <workItem from="1630969738652" duration="5488000" />
+      <workItem from="1631050770819" duration="16019000" />
+      <workItem from="1631145537225" duration="3218000" />
+      <workItem from="1631175594550" duration="194000" />
+      <workItem from="1631175891598" duration="12000" />
+      <workItem from="1631175940017" duration="6719000" />
+      <workItem from="1631230774616" duration="1225000" />
+      <workItem from="1631233682651" duration="103000" />
+      <workItem from="1631233870812" duration="5457000" />
+      <workItem from="1631298883055" duration="598000" />
+      <workItem from="1631327286324" duration="3134000" />
+      <workItem from="1631393369222" duration="107000" />
+      <workItem from="1631563693960" duration="1945000" />
+      <workItem from="1631645505538" duration="2160000" />
+      <workItem from="1632254292893" duration="2032000" />
+      <workItem from="1632266403827" duration="701000" />
+      <workItem from="1632267140490" duration="494000" />
+      <workItem from="1632267654622" duration="712000" />
+      <workItem from="1632268405196" duration="991000" />
+      <workItem from="1632269415393" duration="1350000" />
+      <workItem from="1632390420488" duration="1344000" />
+      <workItem from="1632438836906" duration="3341000" />
+      <workItem from="1632513377426" duration="1271000" />
+      <workItem from="1632611561481" duration="615000" />
+      <workItem from="1633028066206" duration="2735000" />
+      <workItem from="1633178729417" duration="296000" />
+      <workItem from="1633395130173" duration="163000" />
+      <workItem from="1633395476839" duration="106000" />
+      <workItem from="1633396443555" duration="9754000" />
+      <workItem from="1633556151602" duration="3656000" />
+      <workItem from="1633588204424" duration="5045000" />
+      <workItem from="1633680791141" duration="4706000" />
+      <workItem from="1634259219417" duration="94000" />
+      <workItem from="1634344291512" duration="3472000" />
+      <workItem from="1634870191816" duration="2148000" />
+      <workItem from="1635038711855" duration="612000" />
+      <workItem from="1635064862207" duration="9848000" />
+      <workItem from="1635126989397" duration="11538000" />
+      <workItem from="1637224171475" duration="4759000" />
+      <workItem from="1637237980160" duration="13306000" />
+      <workItem from="1637375631747" duration="849000" />
+      <workItem from="1637411111731" duration="89000" />
+      <workItem from="1637411231416" duration="13890000" />
+      <workItem from="1651017519796" duration="3307000" />
+      <workItem from="1651055142125" duration="168000" />
+      <workItem from="1651089469465" duration="3173000" />
+      <workItem from="1651434773871" duration="5286000" />
+      <workItem from="1651526560907" duration="726000" />
+      <workItem from="1651562251362" duration="8000" />
+      <workItem from="1651563725349" duration="1840000" />
+      <workItem from="1651604497307" duration="1553000" />
+      <workItem from="1651699319668" duration="1217000" />
+      <workItem from="1651750886135" duration="4876000" />
+      <workItem from="1651757297440" duration="729000" />
+      <workItem from="1651812767819" duration="4702000" />
+      <workItem from="1651818959988" duration="3667000" />
+      <workItem from="1651868209603" duration="18027000" />
+      <workItem from="1651923730930" duration="833000" />
+      <workItem from="1652040630622" duration="1799000" />
+      <workItem from="1652126567608" duration="3544000" />
+      <workItem from="1652137752633" duration="2144000" />
+      <workItem from="1652169216307" duration="4000" />
+      <workItem from="1652184459026" duration="696000" />
+      <workItem from="1652219540502" duration="17119000" />
+      <workItem from="1652297932567" duration="11957000" />
+      <workItem from="1652389110326" duration="11795000" />
+      <workItem from="1652482562308" duration="12189000" />
+      <workItem from="1652512663652" duration="12608000" />
+      <workItem from="1652563537831" duration="8417000" />
+      <workItem from="1652604109500" duration="5029000" />
+      <workItem from="1652614183606" duration="918000" />
+      <workItem from="1652657238517" duration="15172000" />
+      <workItem from="1652742322740" duration="1264000" />
+      <workItem from="1652747938955" duration="7135000" />
+      <workItem from="1652770596829" duration="9266000" />
+      <workItem from="1652812831744" duration="9260000" />
+      <workItem from="1652824261091" duration="439000" />
+      <workItem from="1652827371912" duration="13459000" />
+      <workItem from="1652907395105" duration="3729000" />
+      <workItem from="1652915078862" duration="2743000" />
+      <workItem from="1653003386602" duration="3175000" />
+      <workItem from="1653083096182" duration="1888000" />
+      <workItem from="1653160732470" duration="68000" />
+      <workItem from="1653160949782" duration="1061000" />
+      <workItem from="1653212284770" duration="1687000" />
+      <workItem from="1653373799188" duration="1829000" />
+      <workItem from="1653422749803" duration="422000" />
+      <workItem from="1653423468304" duration="374000" />
+      <workItem from="1653506358923" duration="999000" />
+      <workItem from="1653508710145" duration="223000" />
+      <workItem from="1653519211747" duration="3416000" />
+      <workItem from="1653771877781" duration="1135000" />
+      <workItem from="1653852088655" duration="833000" />
+      <workItem from="1653857231427" duration="3741000" />
+      <workItem from="1653963981180" duration="1834000" />
+      <workItem from="1653997133308" duration="43000" />
+      <workItem from="1654039316399" duration="1927000" />
+      <workItem from="1654046183361" duration="2000" />
+      <workItem from="1654049187661" duration="11237000" />
+      <workItem from="1654104937654" duration="70000" />
+      <workItem from="1654105015100" duration="19429000" />
+      <workItem from="1654128590503" duration="2863000" />
+      <workItem from="1654133736270" duration="1447000" />
+      <workItem from="1654135576182" duration="176000" />
+      <workItem from="1654136401073" duration="76000" />
+      <workItem from="1654137201706" duration="11811000" />
+      <workItem from="1654200107476" duration="13098000" />
+      <workItem from="1654290552356" duration="17004000" />
+      <workItem from="1654343640226" duration="936000" />
+      <workItem from="1654368106926" duration="10621000" />
+      <workItem from="1654426154388" duration="4937000" />
+      <workItem from="1654464726780" duration="6855000" />
+      <workItem from="1654480193386" duration="5828000" />
+      <workItem from="1654494634551" duration="9973000" />
+      <workItem from="1654549005402" duration="8213000" />
+      <workItem from="1654683270666" duration="3866000" />
+      <workItem from="1654722255900" duration="6003000" />
+      <workItem from="1654739328606" duration="5355000" />
+      <workItem from="1654806235683" duration="1543000" />
+      <workItem from="1654838660465" duration="7224000" />
+      <workItem from="1654911994698" duration="18459000" />
+      <workItem from="1654980351919" duration="3041000" />
+      <workItem from="1655067266678" duration="804000" />
+      <workItem from="1655104055400" duration="3355000" />
+      <workItem from="1655150829834" duration="23560000" />
+      <workItem from="1655243854988" duration="14090000" />
+      <workItem from="1655321311858" duration="7872000" />
+      <workItem from="1655343712316" duration="4069000" />
+      <workItem from="1655413414055" duration="925000" />
+      <workItem from="1655443716745" duration="484000" />
+      <workItem from="1655449812977" duration="32000" />
+      <workItem from="1655464526775" duration="1292000" />
+      <workItem from="1656021227405" duration="1261000" />
+      <workItem from="1656030383963" duration="5890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ihome" />
+    </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ihome_python04$test__1_.coverage" NAME="test (1) 覆盖结果" MODIFIED="1630712610097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/api_1_0" />
+    <SUITE FILE_PATH="coverage/ihome$strUtil.coverage" NAME="strUtil 覆盖结果" MODIFIED="1654517652371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils" />
+    <SUITE FILE_PATH="coverage/ihome_python04$algorithm.coverage" NAME="algorithm 覆盖结果" MODIFIED="1629512298204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/libs/yuntongxun" />
+    <SUITE FILE_PATH="coverage/ihome$pay.coverage" NAME="pay 覆盖结果" MODIFIED="1655189984758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/api_1_0" />
+    <SUITE FILE_PATH="coverage/ihome_python04$hello_test.coverage" NAME="hello_test 覆盖结果" MODIFIED="1633563557126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ihome$image_storage.coverage" NAME="image_storage 覆盖结果" MODIFIED="1654564204954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils" />
+    <SUITE FILE_PATH="coverage/ihome_python04$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1633527136654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ihome_python04$manage.coverage" NAME="flask 覆盖结果" MODIFIED="1637411684241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ihome$captcha_bak.coverage" NAME="captcha-bak 覆盖结果" MODIFIED="1652519286391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils/captcha" />
+    <SUITE FILE_PATH="coverage/ihome_python04$constants.coverage" NAME="constants 覆盖结果" MODIFIED="1635132974131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome" />
+    <SUITE FILE_PATH="coverage/ihome$captcha.coverage" NAME="captcha_get 覆盖结果" MODIFIED="1652520984225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils/captcha" />
+    <SUITE FILE_PATH="coverage/ihome$models.coverage" NAME="models 覆盖结果" MODIFIED="1651903219450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome" />
+    <SUITE FILE_PATH="coverage/ihome$SendMessage.coverage" NAME="SendMessage 覆盖结果" MODIFIED="1652535237306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/libs/yuntongxun" />
+    <SUITE FILE_PATH="coverage/ihome_python04$SendMessage.coverage" NAME="SendMessage 覆盖结果" MODIFIED="1629518299757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/libs/yuntongxun" />
+    <SUITE FILE_PATH="coverage/ihome_python04$test2.coverage" NAME="test2 覆盖结果" MODIFIED="1633420185078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ihome_python04$image_storage.coverage" NAME="image_storage 覆盖结果" MODIFIED="1637238377202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils" />
+    <SUITE FILE_PATH="coverage/ihome$manage.coverage" NAME="manage 覆盖结果" MODIFIED="1654251099637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ihome_python04$test.coverage" NAME="test 覆盖结果" MODIFIED="1637534064363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome" />
+    <SUITE FILE_PATH="coverage/ihome$captcha_get.coverage" NAME="captcha_get 覆盖结果" MODIFIED="1654475972031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils/captcha" />
+    <SUITE FILE_PATH="coverage/ihome$test.coverage" NAME="test 覆盖结果" MODIFIED="1651752460927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome" />
+    <SUITE FILE_PATH="coverage/ihome_python04$image_storage_bak.coverage" NAME="image_storage_bak 覆盖结果" MODIFIED="1635143521739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/utils" />
+    <SUITE FILE_PATH="coverage/ihome$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1655251355195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ihome/api_1_0" />
+    <SUITE FILE_PATH="coverage/ihome_python04$wsgi.coverage" NAME="wsgi 覆盖结果" MODIFIED="1633563776245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

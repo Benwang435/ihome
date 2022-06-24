@@ -1,0 +1,210 @@
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG PngImagePlugin.py:213 STREAM b'IHDR' 16 13
+DEBUG PngImagePlugin.py:213 STREAM b'pHYs' 41 9
+DEBUG PngImagePlugin.py:213 STREAM b'IDAT' 62 8192
+DEBUG Image.py:401 Importing BlpImagePlugin
+DEBUG Image.py:401 Importing BmpImagePlugin
+DEBUG Image.py:401 Importing BufrStubImagePlugin
+DEBUG Image.py:401 Importing CurImagePlugin
+DEBUG Image.py:401 Importing DcxImagePlugin
+DEBUG Image.py:401 Importing DdsImagePlugin
+DEBUG Image.py:401 Importing EpsImagePlugin
+DEBUG Image.py:401 Importing FitsImagePlugin
+DEBUG Image.py:401 Importing FitsStubImagePlugin
+DEBUG Image.py:401 Importing FliImagePlugin
+DEBUG Image.py:401 Importing FpxImagePlugin
+DEBUG Image.py:404 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG Image.py:401 Importing FtexImagePlugin
+DEBUG Image.py:401 Importing GbrImagePlugin
+DEBUG Image.py:401 Importing GifImagePlugin
+DEBUG Image.py:401 Importing GribStubImagePlugin
+DEBUG Image.py:401 Importing Hdf5StubImagePlugin
+DEBUG Image.py:401 Importing IcnsImagePlugin
+DEBUG Image.py:401 Importing IcoImagePlugin
+DEBUG Image.py:401 Importing ImImagePlugin
+DEBUG Image.py:401 Importing ImtImagePlugin
+DEBUG Image.py:401 Importing IptcImagePlugin
+DEBUG Image.py:401 Importing JpegImagePlugin
+DEBUG Image.py:401 Importing Jpeg2KImagePlugin
+DEBUG Image.py:401 Importing McIdasImagePlugin
+DEBUG Image.py:401 Importing MicImagePlugin
+DEBUG Image.py:404 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG Image.py:401 Importing MpegImagePlugin
+DEBUG Image.py:401 Importing MpoImagePlugin
+DEBUG Image.py:401 Importing MspImagePlugin
+DEBUG Image.py:401 Importing PalmImagePlugin
+DEBUG Image.py:401 Importing PcdImagePlugin
+DEBUG Image.py:401 Importing PcxImagePlugin
+DEBUG Image.py:401 Importing PdfImagePlugin
+DEBUG Image.py:401 Importing PixarImagePlugin
+DEBUG Image.py:401 Importing PngImagePlugin
+DEBUG Image.py:401 Importing PpmImagePlugin
+DEBUG Image.py:401 Importing PsdImagePlugin
+DEBUG Image.py:401 Importing SgiImagePlugin
+DEBUG Image.py:401 Importing SpiderImagePlugin
+DEBUG Image.py:401 Importing SunImagePlugin
+DEBUG Image.py:401 Importing TgaImagePlugin
+DEBUG Image.py:401 Importing TiffImagePlugin
+DEBUG Image.py:401 Importing WebPImagePlugin
+DEBUG Image.py:401 Importing WmfImagePlugin
+DEBUG Image.py:401 Importing XbmImagePlugin
+DEBUG Image.py:401 Importing XpmImagePlugin
+DEBUG Image.py:401 Importing XVThumbImagePlugin
+DEBUG Image.py:401 Importing BlpImagePlugin
+DEBUG Image.py:401 Importing BmpImagePlugin
+DEBUG Image.py:401 Importing BufrStubImagePlugin
+DEBUG Image.py:401 Importing CurImagePlugin
+DEBUG Image.py:401 Importing DcxImagePlugin
+DEBUG Image.py:401 Importing DdsImagePlugin
+DEBUG Image.py:401 Importing EpsImagePlugin
+DEBUG Image.py:401 Importing FitsImagePlugin
+DEBUG Image.py:401 Importing FitsStubImagePlugin
+DEBUG Image.py:401 Importing FliImagePlugin
+DEBUG Image.py:401 Importing FpxImagePlugin
+DEBUG Image.py:404 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG Image.py:401 Importing FtexImagePlugin
+DEBUG Image.py:401 Importing GbrImagePlugin
+DEBUG Image.py:401 Importing GifImagePlugin
+DEBUG Image.py:401 Importing GribStubImagePlugin
+DEBUG Image.py:401 Importing Hdf5StubImagePlugin
+DEBUG Image.py:401 Importing IcnsImagePlugin
+DEBUG Image.py:401 Importing IcoImagePlugin
+DEBUG Image.py:401 Importing ImImagePlugin
+DEBUG Image.py:401 Importing ImtImagePlugin
+DEBUG Image.py:401 Importing IptcImagePlugin
+DEBUG Image.py:401 Importing JpegImagePlugin
+DEBUG Image.py:401 Importing Jpeg2KImagePlugin
+DEBUG Image.py:401 Importing McIdasImagePlugin
+DEBUG Image.py:401 Importing MicImagePlugin
+DEBUG Image.py:404 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG Image.py:401 Importing MpegImagePlugin
+DEBUG Image.py:401 Importing MpoImagePlugin
+DEBUG Image.py:401 Importing MspImagePlugin
+DEBUG Image.py:401 Importing PalmImagePlugin
+DEBUG Image.py:401 Importing PcdImagePlugin
+DEBUG Image.py:401 Importing PcxImagePlugin
+DEBUG Image.py:401 Importing PdfImagePlugin
+DEBUG Image.py:401 Importing PixarImagePlugin
+DEBUG Image.py:401 Importing PngImagePlugin
+DEBUG Image.py:401 Importing PpmImagePlugin
+DEBUG Image.py:401 Importing PsdImagePlugin
+DEBUG Image.py:401 Importing SgiImagePlugin
+DEBUG Image.py:401 Importing SpiderImagePlugin
+DEBUG Image.py:401 Importing SunImagePlugin
+DEBUG Image.py:401 Importing TgaImagePlugin
+DEBUG Image.py:401 Importing TiffImagePlugin
+DEBUG Image.py:401 Importing WebPImagePlugin
+DEBUG Image.py:401 Importing WmfImagePlugin
+DEBUG Image.py:401 Importing XbmImagePlugin
+DEBUG Image.py:401 Importing XpmImagePlugin
+DEBUG Image.py:401 Importing XVThumbImagePlugin
+DEBUG Image.py:401 Importing BlpImagePlugin
+DEBUG Image.py:401 Importing BmpImagePlugin
+DEBUG Image.py:401 Importing BufrStubImagePlugin
+DEBUG Image.py:401 Importing CurImagePlugin
+DEBUG Image.py:401 Importing DcxImagePlugin
+DEBUG Image.py:401 Importing DdsImagePlugin
+DEBUG Image.py:401 Importing EpsImagePlugin
+DEBUG Image.py:401 Importing FitsImagePlugin
+DEBUG Image.py:401 Importing FitsStubImagePlugin
+DEBUG Image.py:401 Importing FliImagePlugin
+DEBUG Image.py:401 Importing FpxImagePlugin
+DEBUG Image.py:404 Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG Image.py:401 Importing FtexImagePlugin
+DEBUG Image.py:401 Importing GbrImagePlugin
+DEBUG Image.py:401 Importing GifImagePlugin
+DEBUG Image.py:401 Importing GribStubImagePlugin
+DEBUG Image.py:401 Importing Hdf5StubImagePlugin
+DEBUG Image.py:401 Importing IcnsImagePlugin
+DEBUG Image.py:401 Importing IcoImagePlugin
+DEBUG Image.py:401 Importing ImImagePlugin
+DEBUG Image.py:401 Importing ImtImagePlugin
+DEBUG Image.py:401 Importing IptcImagePlugin
+DEBUG Image.py:401 Importing JpegImagePlugin
+DEBUG Image.py:401 Importing Jpeg2KImagePlugin
+DEBUG Image.py:401 Importing McIdasImagePlugin
+DEBUG Image.py:401 Importing MicImagePlugin
+DEBUG Image.py:404 Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG Image.py:401 Importing MpegImagePlugin
+DEBUG Image.py:401 Importing MpoImagePlugin
+DEBUG Image.py:401 Importing MspImagePlugin
+DEBUG Image.py:401 Importing PalmImagePlugin
+DEBUG Image.py:401 Importing PcdImagePlugin
+DEBUG Image.py:401 Importing PcxImagePlugin
+DEBUG Image.py:401 Importing PdfImagePlugin
+DEBUG Image.py:401 Importing PixarImagePlugin
+DEBUG Image.py:401 Importing PngImagePlugin
+DEBUG Image.py:401 Importing PpmImagePlugin
+DEBUG Image.py:401 Importing PsdImagePlugin
+DEBUG Image.py:401 Importing SgiImagePlugin
+DEBUG Image.py:401 Importing SpiderImagePlugin
+DEBUG Image.py:401 Importing SunImagePlugin
+DEBUG Image.py:401 Importing TgaImagePlugin
+DEBUG Image.py:401 Importing TiffImagePlugin
+DEBUG Image.py:401 Importing WebPImagePlugin
+DEBUG Image.py:401 Importing WmfImagePlugin
+DEBUG Image.py:401 Importing XbmImagePlugin
+DEBUG Image.py:401 Importing XpmImagePlugin
+DEBUG Image.py:401 Importing XVThumbImagePlugin
